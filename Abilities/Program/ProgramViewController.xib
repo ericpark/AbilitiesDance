@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProgramViewController" customModule="Abilities" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.050000000000000003" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rwk-5m-K8R">
+                    <rect key="frame" x="16" y="125" width="343" height="220"/>
+                    <string key="text">Scene 1
+“The struggle is part of the story.”  ~ Anonymous
+Dancer: Ellice Patterson
+Composer: Manuel Garcia-Baro
+
+Scene 2
+“No family is perfect…”
+Dancers: Arielle Kimbarovsky &amp; Ellice Patterson
+Composer: Eva Redamonti
+
+Scene 3
+“…But a family’s love will always be there.” ~ Anonymous
+Dancers: Arielle Kimbarovsky &amp; Roselyn Li 
+Composer: Andrew Choe
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intermission" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.050000000000000003" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yT2-4x-45e">
+                    <rect key="frame" x="0.0" y="341" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.050000000000000003" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPA-UQ-9Ga">
+                    <rect key="frame" x="16" y="360" width="343" height="250"/>
+                    <string key="text">Scene 4
+“I cannot let you burn me up, nor can I resist you.” ~ A.S. Byatt
+Dancers: Natalie Eggert &amp; Ellice Patterson
+Composer: Natalia Perez
+
+Scene 5
+“They decided through their challenges in physical and emotional intimacies, their love was worth it.” ~Ellice
+Dancers: Natalie Eggert &amp; Ellice Patterson
+Composer: Natalia Perez
+
+Scene 6
+“Through their limitations, they found their strength.” ~Ellice 
+Dancers: Natalie Eggert, Arielle Kimbarovsky, Roselyn Li, &amp; Ellice Patterson
+Composer : Manuel Garcia-Baro</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Abilities&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.050000000000000003" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVN-bh-JWq">
+                    <rect key="frame" x="0.0" y="74" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.9111743683510638" green="0.01793781770006132" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.050000000000000003" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sre-X6-TRA">
+                    <rect key="frame" x="0.0" y="96" width="375" height="21"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Choreography by ">
+                            <attributes>
+                                <color key="NSColor" red="0.62828233506944442" green="0.12799480079132833" blue="0.13633292636263022" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" metaFont="smallSystem"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Ellice Patterson">
+                            <attributes>
+                                <color key="NSColor" red="0.62828233506944442" green="0.12799480079132833" blue="0.13633292636263022" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Arial-BoldMT"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> (in collaboration with dancers)
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.62828233506944442" green="0.12799480079132833" blue="0.13633292636263022" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" metaFont="smallSystem"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Rwk-5m-K8R" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="253/667" constant="-33" id="085-zf-pQC"/>
+                <constraint firstItem="sre-X6-TRA" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="21/667" id="0LW-ci-dar"/>
+                <constraint firstItem="fPA-UQ-9Ga" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="250/667" id="6b5-OS-sbH"/>
+                <constraint firstItem="sre-X6-TRA" firstAttribute="top" secondItem="rVN-bh-JWq" secondAttribute="bottom" constant="1" id="9PW-hy-vyQ"/>
+                <constraint firstItem="fPA-UQ-9Ga" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EcJ-CI-EpX"/>
+                <constraint firstItem="yT2-4x-45e" firstAttribute="top" secondItem="Rwk-5m-K8R" secondAttribute="bottom" constant="-4" id="GD8-wI-KlN"/>
+                <constraint firstItem="rVN-bh-JWq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="LNu-Fu-ywg"/>
+                <constraint firstItem="rVN-bh-JWq" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="N0u-hs-qPz"/>
+                <constraint firstItem="fPA-UQ-9Ga" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="343/375" id="Qdn-pF-fqH"/>
+                <constraint firstItem="yT2-4x-45e" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="QfA-xt-NkV"/>
+                <constraint firstItem="fPA-UQ-9Ga" firstAttribute="top" secondItem="yT2-4x-45e" secondAttribute="bottom" constant="-2" id="USk-zK-FUL"/>
+                <constraint firstItem="Rwk-5m-K8R" firstAttribute="top" secondItem="sre-X6-TRA" secondAttribute="bottom" constant="8" id="bJN-ej-5qv"/>
+                <constraint firstItem="Rwk-5m-K8R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bw0-do-daL"/>
+                <constraint firstItem="yT2-4x-45e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cBg-T1-Xxq"/>
+                <constraint firstItem="sre-X6-TRA" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="eHH-h4-njf"/>
+                <constraint firstItem="yT2-4x-45e" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="21/667" id="gBi-C6-U9J"/>
+                <constraint firstItem="Rwk-5m-K8R" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="343/375" id="gZJ-gw-zRT"/>
+                <constraint firstItem="rVN-bh-JWq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gvb-iO-BiG"/>
+                <constraint firstItem="sre-X6-TRA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iMV-k6-Ksa"/>
+                <constraint firstItem="rVN-bh-JWq" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="21/667" id="lzQ-de-Rc8"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
